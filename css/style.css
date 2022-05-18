@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0E181B;
+  font-size: 38px;
+  color: rgba(70, 70, 70, 0.6);
+  flex-direction: column;
+}
+
+.turn {
+  color: white;
+}
+
+#player {
+  color: #09C372;
+}
+
+td {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+table {
+  margin: 2px auto;
+  border: 2px solid #fff;
+  border-spacing: 0px;
+}
+
+.vert {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.hori {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
